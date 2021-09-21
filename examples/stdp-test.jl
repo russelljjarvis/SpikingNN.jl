@@ -5,7 +5,7 @@ using Plots
 T = 1000
 
 # create three SRM0 neurons
-η₀ = 5.0
+η₀ = 30.0
 τᵣ = 1.0
 vth = 1.0
 
@@ -26,7 +26,7 @@ connect!(net, :input, :pop; weights = [1 0], synapse = Synapse.Alpha)
 
 # simulate
 w = Float64[]
-voltages = Dict([(i, Float64[]) for i in 1:2])
+voltages = Dict([(i, Float64[]) for i in 1:30])
 cb = () -> begin
     push!(w, net[:pop].weights[1, 2])
     for id in 1:size(pop)
