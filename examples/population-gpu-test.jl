@@ -13,7 +13,6 @@ weights = rand(Uniform(-2,1),100,100)
 pop = Population(weights; cell = () -> LIF(τᵣ, vᵣ),
                           synapse = Synapse.Alpha,
                           threshold = () -> Threshold.Ideal(vth))
-#allowscalar(false)
 pop = cpu(pop)
 # breaks
 #pop = gpu(pop)
