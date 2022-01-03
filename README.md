@@ -1,7 +1,7 @@
 # SpikingNN.jl
 
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://darsnack.github.io/SpikingNN.jl/dev)
-[![Build Status](https://github.com/darsnack/SpikingNN.jl/workflows/CI/badge.svg)](https://github.com/darsnack/SpikingNN.jl/actions)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://russelljjarvis.github.io/SpikingNN.jl/dev)
+[![Build Status](https://github.com/russelljjarvis/SpikingNN.jl/workflows/CI/badge.svg)](https://github.com/russelljjarvis/SpikingNN.jl/actions)
 
 A spiking neural network simulator written in Julia for multiple target platforms (CPU, GPU, event-driven, etc.).
 
